@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "curd application with express and mongodb",
   "main": "server.js",
+
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
@@ -17,6 +19,7 @@
     "express": "^4.17.1",
     "mongoose": "^6.0.13",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "util": "^0.12.4"
   }
 }
